@@ -1,0 +1,51 @@
+2018-03-06 10:52:58  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@241e3a74: startup date [Tue Mar 06 10:52:58 CST 2018]; root of context hierarchy
+2018-03-06 10:52:58  [ main:243 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:32:04  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@40f6dcc7: startup date [Tue Mar 06 12:32:04 CST 2018]; root of context hierarchy
+2018-03-06 12:32:04  [ main:173 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:32:05  [ main:1234 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.jdbc.datasource.DriverManagerDataSource] for bean with name 'jdbcDataSource' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.jdbc.datasource.DriverManagerDataSource
+2018-03-06 12:34:30  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1d508393: startup date [Tue Mar 06 12:34:30 CST 2018]; root of context hierarchy
+2018-03-06 12:34:30  [ main:180 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:34:31  [ main:1236 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.springframework.jdbc.datasource.DriverManagerDataSource] for bean with name 'jdbcDataSource' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.springframework.jdbc.datasource.DriverManagerDataSource
+2018-03-06 12:37:37  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77c16c5f: startup date [Tue Mar 06 12:37:37 CST 2018]; root of context hierarchy
+2018-03-06 12:37:37  [ main:169 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:37:38  [ main:1406 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 12:37:38  [ main:1408 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.SqlSessionFactoryBean] for bean with name 'sqlSessionFactory' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.SqlSessionFactoryBean
+2018-03-06 12:44:55  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3bb20e65: startup date [Tue Mar 06 12:44:55 CST 2018]; root of context hierarchy
+2018-03-06 12:44:55  [ main:171 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:44:56  [ main:1217 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 12:44:56  [ main:1223 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory': Failed to introspect bean class [org.mybatis.spring.SqlSessionFactoryBean] for lookup method metadata: could not find class that it depends on; nested exception is java.lang.NoClassDefFoundError: org/apache/ibatis/transaction/TransactionFactory
+2018-03-06 12:46:32  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26cf2781: startup date [Tue Mar 06 12:46:32 CST 2018]; root of context hierarchy
+2018-03-06 12:46:32  [ main:111 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:46:33  [ main:1167 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 12:51:18  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@12653c7e: startup date [Tue Mar 06 12:51:18 CST 2018]; root of context hierarchy
+2018-03-06 12:51:20  [ main:2023 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:51:37  [ main:19065 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 12:55:41  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a2a9a0e: startup date [Tue Mar 06 12:55:41 CST 2018]; root of context hierarchy
+2018-03-06 12:55:41  [ main:190 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 12:55:43  [ main:1326 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 13:02:17  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26cf2781: startup date [Tue Mar 06 13:02:17 CST 2018]; root of context hierarchy
+2018-03-06 13:02:17  [ main:171 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 13:02:18  [ main:1289 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:07:05  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3bb20e65: startup date [Tue Mar 06 17:07:05 CST 2018]; root of context hierarchy
+2018-03-06 17:07:05  [ main:216 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:07:07  [ main:1982 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:10:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26cf2781: startup date [Tue Mar 06 17:10:57 CST 2018]; root of context hierarchy
+2018-03-06 17:10:57  [ main:184 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:10:58  [ main:1303 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:19:01  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a2a9a0e: startup date [Tue Mar 06 17:19:01 CST 2018]; root of context hierarchy
+2018-03-06 17:19:01  [ main:178 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:19:02  [ main:1219 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:19:02  [ main:1619 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'class path resource [com/sf/server/Mapper.xml]'; nested exception is java.lang.RuntimeException: Error parsing Mapper XML. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains value for com.jasper.dao.PersonDao.getUsers
+2018-03-06 17:19:40  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a2a9a0e: startup date [Tue Mar 06 17:19:40 CST 2018]; root of context hierarchy
+2018-03-06 17:19:40  [ main:180 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:19:41  [ main:1275 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:21:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a2a9a0e: startup date [Tue Mar 06 17:21:09 CST 2018]; root of context hierarchy
+2018-03-06 17:21:09  [ main:178 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:21:10  [ main:1082 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:21:10  [ main:1379 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'class path resource [com/sf/server/Mapper.xml]'; nested exception is java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Users'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Users
+2018-03-06 17:21:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@12e84396: startup date [Tue Mar 06 17:21:57 CST 2018]; root of context hierarchy
+2018-03-06 17:21:57  [ main:180 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:21:58  [ main:1265 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-06 17:26:16  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a2a9a0e: startup date [Tue Mar 06 17:26:16 CST 2018]; root of context hierarchy
+2018-03-06 17:26:16  [ main:176 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-06 17:26:17  [ main:1209 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver

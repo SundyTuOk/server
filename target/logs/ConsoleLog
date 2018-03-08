@@ -1,0 +1,6 @@
+2018-03-08 11:03:36  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3eb94bd7: startup date [Thu Mar 08 11:03:36 CST 2018]; root of context hierarchy
+2018-03-08 11:03:36  [ main:120 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-08 11:03:38  [ main:1149 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+2018-03-08 11:05:00  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3eb94bd7: startup date [Thu Mar 08 11:05:00 CST 2018]; root of context hierarchy
+2018-03-08 11:05:00  [ main:134 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2018-03-08 11:05:02  [ main:1264 ] - [ INFO ]  Loaded JDBC driver: oracle.jdbc.driver.OracleDriver

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/mybatis-3-mapper.dtd">
+<mapper namespace="com.sf.server.dao.GatherDAO">
+    <select id="findGather" parameterType="int" resultType="com.sf.server.bean.Gather">
+        SELECT AREA_ID as areaID,GATHER_ID as gatherID,ARCHITECTURE_ID as architectureID,
+			DATASITE_ID as dataSiteID,
+			GATHER_STATE as gatherState,
+			GATHER_NUM as gatherNum,
+			GATHER_NAME as gatherName,
+			GATHER_ADDRESS as gatherAddress,
+			GATHER_PASSWORD as gatherPassword,
+			GATHER_ANZHUANGADDRESS as gatherInstallAddress,
+			GATHER_CHANGSHANG as gatherManufacturer,
+			GATHER_BANBEN as gatherVersion,
+			GATHER_SIZE as gatherSize,
+			PROTOCOL as protocol,
+			SENDWAY as sendWay,
+			LASTTIME as lastTime,
+			IP as ip,
+			LASTSETTIME as lastSetTime,
+			LASTSETMSG as lastSetMSG,
+			GATHER_STYLE as gatherStyle
+			FROM
+			GATHER where GATHER_ID=#{id}
+    </select>
+</mapper>

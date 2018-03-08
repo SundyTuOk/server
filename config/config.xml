@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<configuration>
+	<!-- 数据库驱动 -->
+	<DBDriver>oracle.jdbc.driver.OracleDriver</DBDriver>
+	<!-- 数据库连接串 -->
+	<DBURL>jdbc:Oracle:thin:@192.168.7.151:1521:orcl</DBURL>
+	<!-- 数据库用户名 -->
+	<DBUserName>vesschool1760312</DBUserName>
+	<!-- 数据库密码 -->
+	<DBPassword>sa123456</DBPassword>
+	
+	<startTime>201401</startTime>
+	<endTime>201608</endTime>
+</configuration>
